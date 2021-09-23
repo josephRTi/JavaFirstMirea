@@ -11,7 +11,7 @@ public class Task3 {
             numericArray2[i] = sc.nextInt();
         }
         for (int value : numericArray2) {
-            System.out.print(value + ";");
+            System.out.print(value + " ");
         }
     }
 }

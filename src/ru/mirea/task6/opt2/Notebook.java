@@ -1,8 +1,8 @@
-package ru.mirea.task6;
+package ru.mirea.task6.opt2;
 
-public class Phone {
+public class Notebook implements Priceable {
     double price;
-    public Phone(double price) {
+    public Notebook(double price) {
         this.price = price;
     }
 
