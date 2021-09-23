@@ -14,8 +14,8 @@ public class CircleTest {
             r = in.nextDouble();
         }
 
-        Circle myDog = new Circle(r);
+        Circle circle = new Circle(r);
 
-        System.out.println(myDog);
+        System.out.println(circle);
     }
 }
