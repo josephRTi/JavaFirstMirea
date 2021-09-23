@@ -10,21 +10,21 @@ public class ShapeTest {
 
         System.out.print("Введите имя вашей фигуры: ");
         name = in.nextLine();
-        System.out.print("\nВведите периметр вашей фигуры: ");
+        System.out.print("Введите периметр вашей фигуры: ");
         P = in.nextDouble();
         while (P <= 0) {
-            System.out.print("\nВведите периметр вашей фигуры (>0): ");
+            System.out.print("Введите периметр вашей фигуры (>0): ");
             P = in.nextDouble();
         }
-        System.out.print("\nВведите площадь вашей фигуры: ");
+        System.out.print("Введите площадь вашей фигуры: ");
         S = in.nextDouble();
         while (S <= 0) {
-            System.out.print("\nВведите площадь вашей фигуры (>0): ");
+            System.out.print("Введите площадь вашей фигуры (>0): ");
             S = in.nextDouble();
         }
 
         Shape MyShape = new Shape(S, P, name);
 
-        System.out.println(MyShape.toString());
+        System.out.println(MyShape);
     }
 }

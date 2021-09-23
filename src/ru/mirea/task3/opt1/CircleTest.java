@@ -16,6 +16,6 @@ public class CircleTest {
 
         Circle myDog = new Circle(r);
 
-        System.out.println(myDog.toString());
+        System.out.println(myDog);
     }
 }

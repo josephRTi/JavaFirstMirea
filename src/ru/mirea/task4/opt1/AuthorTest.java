@@ -10,13 +10,13 @@ public class AuthorTest {
 
         System.out.print("Введите имя автора: ");
         name = in.nextLine();
-        System.out.print("\nВведите email: ");
+        System.out.print("Введите email: ");
         email = in.nextLine();
-        System.out.print("\nВведите пол: ");
+        System.out.print("Введите пол: ");
         gender = in.next().charAt(0);
 
         Author author = new Author(name, email, gender);
 
-        System.out.println(author.toString());
+        System.out.println(author);
     }
 }

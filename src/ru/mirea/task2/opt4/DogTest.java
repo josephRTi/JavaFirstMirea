@@ -10,15 +10,15 @@ public class DogTest {
 
         System.out.print("Введите кличку вашей собаки: ");
         name = in.nextLine();
-        System.out.print("\nВозраст вашей собаки: ");
+        System.out.print("Возраст вашей собаки: ");
         age = in.nextInt();
         while (age <= 0) {
-            System.out.print("\nКоличество страниц вашей книги (>0): ");
+            System.out.print("Количество страниц вашей книги (>0): ");
             age = in.nextInt();
         }
 
         Dog myDog = new Dog(name, age);
 
-        System.out.println(myDog.toString());
+        System.out.println(myDog);
     }
 }

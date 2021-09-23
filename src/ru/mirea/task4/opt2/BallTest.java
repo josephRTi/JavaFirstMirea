@@ -9,15 +9,15 @@ public class BallTest {
 
         System.out.print("Введите координату X: ");
         x = in.nextDouble();
-        System.out.print("\nВведите координату Y: ");
+        System.out.print("Введите координату Y: ");
         y = in.nextDouble();
         Ball myBall = new Ball(x, y);
-        System.out.println(myBall.toString());
+        System.out.println(myBall);
         System.out.print("Переместить координату X на: ");
         x = in.nextDouble();
         System.out.print("Переместить координату Y на: ");
         y = in.nextDouble();
         myBall.move(x, y);
-        System.out.println(myBall.toString());
+        System.out.println(myBall);
     }
 }

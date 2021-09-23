@@ -10,17 +10,17 @@ public class BookTest {
 
         System.out.print("Введите автора книги: ");
         author = in.nextLine();
-        System.out.print("\nВведите название книги: ");
+        System.out.print("Введите название книги: ");
         name = in.nextLine();
-        System.out.print("\nВведите год написания книги: ");
+        System.out.print("Введите год написания книги: ");
         year = in.nextInt();
         while (year <= 0) {
-            System.out.print("\nВведите год написания книги (>0): ");
+            System.out.print("Введите год написания книги (>0): ");
             year = in.nextInt();
         }
 
         Book myBook = new Book(author, name, year);
 
-        System.out.println(myBook.toString());
+        System.out.println(myBook);
     }
 }

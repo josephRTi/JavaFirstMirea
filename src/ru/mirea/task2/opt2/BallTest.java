@@ -10,21 +10,21 @@ public class BallTest {
 
         System.out.print("Введите тип вашего мяча: ");
         type = in.nextLine();
-        System.out.print("\nВведите массу вашего мяча: ");
+        System.out.print("Введите массу вашего мяча: ");
         m = in.nextInt();
         while (m <= 0) {
-            System.out.print("\nВведите массу вашего мяча (>0): ");
+            System.out.print("Введите массу вашего мяча (>0): ");
             m = in.nextInt();
         }
-        System.out.print("\nВведите стоимость вашего мяча: ");
+        System.out.print("Введите стоимость вашего мяча: ");
         price = in.nextInt();
         while (price <= 0) {
-            System.out.print("\nВведите стоимость вашего мяча (>0): ");
+            System.out.print("Введите стоимость вашего мяча (>0): ");
             price = in.nextInt();
         }
 
         Ball myBall = new Ball(type, m, price);
 
-        System.out.println(myBall.toString());
+        System.out.println(myBall);
     }
 }
