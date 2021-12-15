@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>ru.mirea.task32</OriginalElement>
+  <nodes>
+    <node x="210.0" y="80.0">ru.mirea.task32.PayByCreditCard</node>
+    <node x="-21.0" y="80.0">ru.mirea.task32.PayByPayPal</node>
+    <node x="97.5" y="0.0">ru.mirea.task32.PayStrategy</node>
+    <node x="-21.0" y="155.0">ru.mirea.task32.CreditCard</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ru.mirea.task32.PayByCreditCard" target="ru.mirea.task32.PayStrategy" relationship="REALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="303.5" y="55.0" />
+      <point x="171.5" y="55.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="ru.mirea.task32.PayByPayPal" target="ru.mirea.task32.PayStrategy" relationship="REALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="55.5" y="55.0" />
+      <point x="171.5" y="55.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="180.0" y="92.5" />
+  <SelectedNodes>
+    <node>ru.mirea.task32.CreditCard</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
